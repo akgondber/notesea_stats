@@ -1,0 +1,64 @@
+{
+	"name": "notesea",
+	"children": [
+		{
+			"name": "notesea.config"
+		},
+		{
+			"name": "notesea.routes",
+			"children": [
+				{"name": "ngRoute"}
+			] 
+		},
+		{
+			"name": "notesea.utils",
+			"children": [
+				{
+					"name": "notesea.utils.services"
+				},
+				{
+					"name": "notesea.utils.filters"
+				}
+			]
+		},
+		{
+			"name": "notesea.authentication",
+			"children": [
+				{
+					"name": "notesea.authentication.controllers"
+				},
+				{
+					"name": "notesea.authentication.services",
+					"children": [
+						{"name": "ngCookies"}
+					]
+				}
+			]
+		},
+		{
+			"name": "notesea.layout",
+			"children": [
+				{
+					"name": "notesea.layout.controllers",
+					"children": [
+						{"name": "ngCookies"}
+					]
+				}
+			]
+		},
+		{
+			"name": "notesea.notes",
+			"children": [
+				{
+					"name": "notesea.notes.services"
+				},
+				{
+					"name": "notesea.notes.controllers"
+				},
+				{
+					"name": "notesea.notes.directives"
+				}
+			]
+		}
+	]
+}
